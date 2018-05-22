@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	box-sizing:border-box;
+	
+	}
+body{
+	background-color: transparent ;
+	overflow:hidden;
+}
+
+.p_wrapper{ /*絕色美圖燈箱內容的最外層wrapper*/
+	width: 640px;
+	height: 720px;
+	background:#000000 ;
+	margin-left:auto;
+	margin-right:auto;
+}
+.atttitle { margin-top: 10px; padding: 15px 15px 60px;  }
+p { padding: 20px; margin-bottom: 0px; margin-bottom: 10px;line-height: 30px; color: #B3B3B3;font-family: '微軟正黑體'; }
+.atttitle em { color: #FF0; font-weight: normal; font-style: normal; margin: 0 .15em; }
+.atttitle img {}
+h3.title2 { font-size: 34px; line-height: 1.8; text-align: center; margin: 0 auto;}
+h3.title2 strong { font-size: 38px; display: block; font-weight: normal; }
+#lightbox_content{/*iframe的id*/
+	width:808px;
+	height:616px;
+}
+.main{/*遊戲特色的選單*/
+    display:block;
+	width:100%;
+	height:auto;
+	padding:10px;
+	overflow-x:hidden;
+}
+.main a {
+	display:block;
+	width:225px;
+	height:55px;
+	margin:0 auto;
+	cursor:pointer;
+	}
+.main a:hover {
+	background-position:0 -55px;
+	}
+	
+#number {
+	display:none;
+	width:250px;
+	height:80px;
+	margin:0 auto;
+	padding-top:450px;
+	}
+#key {
+	width:250px;
+	height:80px;
+	background:rgba(0,0,0,.8);
+	border-radius:10px;
+	margin:0 auto;
+	}
+.form {
+	font-family:"微軟正黑體",Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	padding-top:20px;
+	}
+.yellow {
+	color:#F4D028;
+	font-weight:bold;
+	
+	}
+.btn {
+	display:block;
+	width:80px;
+	margin:0 auto;
+	padding-top:10px;
+	text-align:center;
+	}

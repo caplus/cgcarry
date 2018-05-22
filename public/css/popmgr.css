@@ -1,0 +1,41 @@
+.pop-wrap,.pop-inner,.pop-content,.pop-masklayer,.pop-gctrl,.pop-close,.pop-prev,.pop-next,.pop-expand,.pop-loader,.pop-error{margin:0;padding:0;display:block;}
+.pop-wrap{-webkit-transform:translateZ(0);position:fixed;left:0;top:0;z-index:10000002;width:100%;height:100%;/*overflow:hidden;*/_position:absolute;display:none;}
+.pop-inner{position:relative;top:50%;_top:0;background:#6D6B6B;border-radius:5px;zoom:1}
+.pop-content{visibility:hidden;width:100%;height:100%}
+.pop-masklayer{-webkit-transform:translateZ(0);position:fixed;left:0;top:0;z-index:10000001;background:#000;width:100%;height:100%;_position:absolute;opacity:.8;filter:alpha(opacity=80);}
+/* ~~ 燈箱樣式 ~~ */
+#testdiv {width:600px; margin:0px auto; border:1px solid #ccc; padding:20px 25px 12px; background:#000;}
+
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+.tinner {padding:2px; border-radius: 10px; -moz-border-radius:10px; background: rgba(66,66,66,.9) url(../images/preload.gif) no-repeat 50% 50%; box-shadow: 2px 5px .8; border-right:1px solid #333; border-bottom:1px solid #333}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:13px; right:25px; width:37px; height:20px; cursor:pointer; background:url(../images/controls.png) -30px 0px no-repeat}
+.tclose:hover {background-position:-30px -111px}	
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm){.pop-masklayer{display:block;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAA3NCSVQICAjb4U/gAAAABlBMVEUAAAD//8waCf7LAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABRJREFUOI1jYBgFo2AUjIJRQE8AAAV4AAH5pV7HAAAAAElFTkSuQmCC)}}
+.pop-gctrl{position:absolute;left:8px;top:6px;z-index:1;visibility:hidden}
+.pop-close,.pop-prev,.pop-next,.pop-expand{width:25px;height:25px;position:absolute;cursor:pointer;z-index:1;background-image:url(../images/close.png);background-repeat:no-repeat}
+.pop-expand{background-position:-42px 0;right:33px;visibility:hidden;display:block;text-decoration:none;top:6px}
+.pop-close{background-position:0 1px;right:9px;top:4px}
+.pop-close:hover{background-position:0 -25px;right:9px;top:4px}
+.pop-prev{background-position:0 0;left:0;top:0}
+.pop-next{background-position:-21px 0;left:25px;top:0}
+.pop-loader{width:32px;height:32px;position:absolute;background-image:url(../images/poploader.gif);left:50%;top:50%;z-index:1;margin:-16px 0 0 -16px;overflow:hidden}
+.pop-error{text-align:center;color:#fff}
+
+@media screen and (max-width: 640px) {
+.pop-wrap,.pop-inner,.pop-content,.pop-masklayer,.pop-gctrl,.pop-close,.pop-prev,.pop-next,.pop-expand,.pop-loader,.pop-error{margin:0;padding:0;display:none;}
+.pop-wrap{-webkit-transform:translateZ(0);position:fixed;left:0;top:0;z-index:10000002;width:0;height:0;/*overflow:hidden;*/_position:absolute;display:none;}
+.pop-inner{position:relative;top:50%;_top:0;background:#6D6B6B;border-radius:5px;zoom:1}
+.pop-content{visibility:hidden;width:100%;height:100%}
+.pop-masklayer{-webkit-transform: none;position:fixed;left:0;top:0;z-index:10000001;background:#000;width:0;height:0;_position:absolute;opacity:0;filter:alpha(opacity=0);display:none}
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm){.pop-masklayer{display:none;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAA3NCSVQICAjb4U/gAAAABlBMVEUAAAD//8waCf7LAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABRJREFUOI1jYBgFo2AUjIJRQE8AAAV4AAH5pV7HAAAAAElFTkSuQmCC)}}
+.pop-gctrl{position:absolute;left:8px;top:6px;z-index:1;visibility:hidden}
+.pop-close,.pop-prev,.pop-next,.pop-expand{width:20px;height:20px;position:absolute;cursor:pointer;z-index:1;background-image:url(../images/pop.png);background-repeat:no-repeat}
+.pop-expand{background-position:-42px 0;right:33px;visibility:hidden;display:block;text-decoration:none;top:6px}
+.pop-close{background-position:-63px 0;right:8px;top:6px}
+.pop-prev{background-position:0 0;left:0;top:0}
+.pop-next{background-position:-21px 0;left:25px;top:0}
+.pop-loader{width:32px;height:32px;position:absolute;background-image:url(../images/poploader.gif);left:50%;top:50%;z-index:1;margin:-16px 0 0 -16px;overflow:hidden}
+.pop-error{text-align:center;color:#fff}
+	
+	}

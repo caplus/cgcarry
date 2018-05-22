@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner {
+    width: 100%;
+    height: 110px;
+	margin-top: 80px;
+    background: url(../images/anchor/anchor_banner.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.banner_h {
+    background: url(../images/anchor/anchor_banner.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.banner .content {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-left: 7px;
+    width: 1005px;
+    margin: 28px auto;
+}
+.goldtext{
+	color:#A26A24;
+}
+.anchor_list{
+	display: block;
+	overflow: hidden;
+	width: 35%;
+	float: left;
+	padding: 80px 0 20px 10px;
+	margin: 0;
+}
+.anchor_list ul li{
+	list-style: none;
+	text-align: left;
+}
+.qq_icon{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	margin-top: -5px;
+	padding-right: 5px;
+	background: url(../images/qq_icon.png) 0 0 repeat;  
+}
+.weibo_icon{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	margin-top: -5px;
+	padding-right: 5px;
+	background: url(../images/weibo_icon.png) 0 0 repeat;  
+}
+.wechat_icon{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	margin-top: -5px;
+	padding-right: 5px;
+	background: url(../images/wechat_icon.png) 0 0 repeat;  
+}
+.anchor_form{
+	display: block;
+	overflow: hidden;
+	width: 65%;
+	float: left;
+	padding: 20px 0 20px 20px;
+	margin: 0;
+}
+.anchor_form h3{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.anchor_form p {
+    display: block;
+    float: none;
+    margin-top: 5px;
+	text-align: center;
+}
+.anchor_form img {
+	border: 2px solid #FFFFFF;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	float: left;
+}
+.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}

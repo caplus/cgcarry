@@ -1,0 +1,128 @@
+/* --------------------------------------
+=========================================
+COLOR : BLUE MUNSELL
+
+MAIN COLOR CODE: #999
+
+DEEP COLOR CODE: #006f7c
+=========================================
+----------------------------------------- */
+
+.color-overlay {
+    background: rgba(22, 22, 22, 0.55);
+}
+
+.solid-color {
+    background: rgba(1, 150, 167, 1);
+}
+
+.transparent-color .color-overlay {
+    background: rgba(1, 150, 167, 0.9);
+}
+
+.standard-button {
+    background: #999;
+}
+
+.solid-color .standard-button,
+.transparent-color .standard-button {
+    background: #4392b1;
+}
+
+.solid-color .standard-button:hover,
+.transparent-color .standard-button:hover {
+    background: #ebebeb;
+}
+
+.standard-button2 {
+    background: #5AC;
+	box-shadow: inset 0 -3px 0 #18A;
+}
+
+.standard-button2:hover {
+    background: #4392b1;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background: #4392b1;
+    border-color: inherit;
+}
+
+.colored-line,
+.colored-line-left {
+    background: #999;
+}
+
+.main-color {
+	font-size: 28px;
+    color: #999;
+}
+
+.color-bg {
+	background: #999;
+	color: #FFFFFF;
+}
+
+.features .feature:hover .icon-container .icon {
+    background: #fff;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #999;
+            box-shadow: 0px 0px 0px 2px #999;
+}
+
+.features .feature .icon-container .icon {
+    border: 1px solid #fff /*0196a7*/;
+    color: #fff;
+}
+
+
+/* 布丁增加icon */
+
+.features .feature .icon-container .icon .icon_01{ display:block;width:70%; height:70%; background: url(../../images/icon_01.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_02{ display:block;width:70%; height:70%; background: url(../../images/icon_02.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_03{ display:block;width:70%; height:70%; background: url(../../images/icon_03.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_04{ display:block;width:70%; height:70%; background: url(../../images/icon_04.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_05{ display:block;width:70%; height:70%; background: url(../../images/icon_05.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_06{ display:block;width:70%; height:70%; background: url(../../images/icon_06.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_07{ display:block;width:70%; height:70%; background: url(../../images/icon_07.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_08{ display:block;width:70%; height:70%; background: url(../../images/icon_08.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_09{ display:block;width:70%; height:70%; background: url(../../images/icon_09.png) left top; background-size: Contain; margin:15%;}
+.features .feature .icon-container .icon .icon_10{ display:block;width:70%; height:70%; background: url(../../images/icon_10.png) left top; background-size: Contain; margin:15%;}
+
+
+.feature-list li i {
+    color: #999;
+}
+
+.services .single-service .service-icon,
+.services .single-service h3 {
+    color: #999;
+}
+
+.screenshots .owl-theme .owl-controls .owl-page span {
+    background: #999;
+}
+
+footer .contact-button {
+    border: 2px solid #999;
+    color: #999;
+}
+
+footer .contact-button:hover {
+    background: #fff !important;
+}
+
+footer .contact-box .expanded-contact-form .input-box:active,
+footer .contact-box .expanded-contact-form .textarea-box:active,
+footer .contact-box .expanded-contact-form .input-box:focus,
+footer .contact-box .expanded-contact-form .textarea-box:focus {
+    border: 1px solid #999;
+}
+
+footer .social-icons li a:hover {
+    color: #999;
+}
