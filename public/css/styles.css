@@ -23,6 +23,9 @@ body {
 	margin: auto !important;
 }
 /* 懸浮視窗 */
+.showhide{
+	display: none;
+}
 #abgne_float_ad {
 		display: none;
 		position: absolute;
